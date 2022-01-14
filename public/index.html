@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chatting App</title>
+</head>
+
+<body>
+    <div class="join-container">
+        <header class="join-header">
+            <h1><i class="fas fa-comments"></i> SimpleChat Application</h1>
+        </header>
+        <main class="join-main">
+            <form action="chat.html">
+                <div class="form-control">
+                    <label for="username">Имя</label>
+                    <input type="text" name="username" id="username" placeholder="Enter A Username" required />
+                </div>
+                <div class="form-control">
+                    <label for="room">Чаты</label>
+                    <select name="room" id="room">
+              <option selected disabled>Пожалуйста, выберите любой...</option>
+              <option value="Marvel Fans">Front End Chat</option>
+              <option value="DC Fans">Python Chat</option>
+              <option value="Star Wars Fans">FullStack Chat</option>
+              <option value="Harry Potter Fans">Dev Kg</option>
+              <option value="Game Of Thrones Fans">Data Science</option>
+              <option value="Lord Of The Rings Fans">Mobile developer</option>
+            </select>
+                </div>
+                <button type="submit" class="btn">Присоединяйся сейчас</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
